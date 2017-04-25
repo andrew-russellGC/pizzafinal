@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Menu</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href=".\css\styleB.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<div class="container">
+	<div class="page-header">
+		<div class="row">
+			<img class="col-md-3" src="./images/logo.png" alt="logo"> 
+			<div class="col-md-7">
+				<ul  class="list-inline">	
+					<li><a class="list-inline-item" href="./main.html">Main</a></li>
+					<li><a class="list-inline-item" href="./menu.html">Menu</a></li>
+					<li><a class="list-inline-item" href="./signup.html">Sign Up</a></li>
+					<li><a class="list-inline-item" href="./summary.html">Summary</a></li>
+				</ul>
+			</div>
+			<div class="col-md-2">
+				<a href="./cart.html"><img class="cart" src="./images/cart.png" alt="cart" style="width:60px;height:60px;"><span class="badge" id="numItem">0</span> </a>
+			</div>
+		</div>
+	</div>
+
+<div id="pizzaDiv">
+</div>
+
+
+	<hr>
+
+	<footer>
+		<img class="logo-footer" src="./images/logo.png" alt="logo" height="100" width="150">
+			<a class="list-inline-item" href="./main.html">Main</a>
+			<a class="list-inline-item" href="./menu.html">Menu</a>
+			<a class="list-inline-item" href="./signup.html">Sign Up</a>
+			<a class="list-inline-item" href="./summary.html">Summary</a>
+		<button type="button" onclick="clearCart()">Clear Cart</button>
+		<div class="row">
+			<div class="col-md-4">
+				<p>Lorem ipsum Sit amet adipisicing dolor non anim voluptate cillum dolor eu eu ad irure.</p>
+			</div>
+			<div class="col-md-4">
+				<p>Lorem ipsum Sit amet adipisicing dolor non anim voluptate cillum dolor eu eu ad irure.</p>
+			</div>
+			<div class="col-md-4">
+				<p>Lorem ipsum Sit amet adipisicing dolor non anim voluptate cillum dolor eu eu ad irure. Lorem ipsum Duis aute Excepteur.</p>
+			</div>
+		</div>
+	</footer>
+</div>
+<script type="text/javascript" src="./js/cartClient.js"></script>
+<script type="text/javascript">
+	createMenu();
+	document.getElementById("numItem").innerHTML = localStorage.getItem("number");
+
+</script>
+</body>
+</html>

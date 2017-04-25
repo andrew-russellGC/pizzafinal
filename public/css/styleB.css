@@ -1,0 +1,24 @@
+.page-header li {
+	font-size: 2em;
+	margin-top: 70px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.page-header a {
+	color: darkred;
+
+}
+
+.page-header .cart {
+	margin-top: 20px;
+}
+
+.pizza {
+	height: 200px;
+	width: 250px;
+}
+
+a {
+	color: darkred;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "AndrewRussell",
+  "version": "0.0.1",
+  "description": "",
+  "main": "node app.js",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.3",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "mongodb": "^2.2.26"
+  }
+}
