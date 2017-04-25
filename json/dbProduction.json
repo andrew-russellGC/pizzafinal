@@ -1,5 +1,5 @@
 {
     "devServer": {
-        "url": "mongodb://pizzastore:YxQvuJT0WY22kdugOEYE8ngLZRl4oInOiN09Fh25QVrz78P30xvfo6T7VoMHP24fKyrhuTMqmDLipj6irmFLrA==@pizzastore.documents.azure.com:10250/pizzadb?ssl=true
+        "url": "mongodb://pizzadb1:ImoKrEjpvgF8i8JlMGYwWFp9DIikf1R8FEzGnVnKqvtqWwlWzQswh6MAWCJ9lYyDBZMHWxbjHwh3sqdth4VMVw==@pizzadb1.documents.azure.com:10250/?ssl=true"
     }
 }
